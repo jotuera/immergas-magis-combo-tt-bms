@@ -8,7 +8,7 @@ This is a community reverse-engineering project — Immergas does not publish th
 
 - **M5Stack Atom Lite** (ESP32) + isolated **RS485** transceiver (e.g. MAX3485 / M5 Isolated RS485 Unit)
 - Wiring: Immergas **T+ / T-** → RS485 **A / B** (swap A/B if you get CRC errors)
-- Bus: **Modbus RTU, slave 11, 9600 8N1**, 2-wire
+- Bus: **Modbus RTU, slave 11, 9600 8N2**, 2-wire
 - Tested on: **Magis Combo 9 Plus V2** (Audax 9, 9 kW)
 - The Atom is the Modbus **master**; the heat pump is slave 11.
 
